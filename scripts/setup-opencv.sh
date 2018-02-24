@@ -5,7 +5,6 @@
 # This script is specifically created for Raspbian http://www.raspbian.org
 # and Raspberry Pi http://www.raspberrypi.org but should work over any
 # Debian-based distribution
-
 # Created and mantained by Justin Mitchel
 # Please send any feedback or comments to https://github.com/jmitchel3
 # Updated for OpenCV 3.4.0 by https://opencv.org
