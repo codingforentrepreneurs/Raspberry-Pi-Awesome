@@ -140,6 +140,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
     -D INSTALL_PYTHON_EXAMPLES=ON \
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.0/modules \
+    -D WITH_GPHOTO2=ON \
     -D BUILD_EXAMPLES=ON ..
 
 
