@@ -29,27 +29,6 @@ if [ "$(whoami)" != "root" ]; then
 fi
 
 
-usage()
-{
-cat << EOF
-usage: sudo $0 [-h|--help]
-
--h|--help: this help message
-
-# Note: This is a work in progress. Please tweet me if you have updates you would like us 
-# to include
-EOF
-exit 1
-}
-
-
-# if [ $# -eq 0 ]
-# then
-#     menu
-# else
-#     parse_options "$@"
-# fi
-
 echo
 echo "----------------"
 echo "Updating sources"
@@ -57,8 +36,6 @@ echo "----------------"
 echo
 
 apt-get update -qq
-
-
 
 
 echo
