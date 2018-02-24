@@ -103,7 +103,7 @@ apt-get install -y python2.7-dev python3-dev
 
 echo
 echo "-----------------------"
-echo "Installing dependencies"
+echo "Installing more dependencies"
 echo "-----------------------"
 echo
 cd ~
@@ -142,10 +142,6 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.0/modules \
     -D BUILD_EXAMPLES=ON ..
 
-
-
-#while read a ; do echo ${a//CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024} ; done < /etc/dphys-swapfile > /etc/dphys-swapfile.t ; mv /etc/dphys-swapfile{.t,}
-# while read a ; do echo ${a//CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024} ; done < /etc/dphys-swapfile > /etc/dphys-swapfile.t ; mv /etc/dphys-swapfile{.t,}
 
 echo
 echo "-----------------------"
