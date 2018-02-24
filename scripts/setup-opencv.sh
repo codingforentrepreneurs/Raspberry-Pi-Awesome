@@ -36,7 +36,7 @@ usage: sudo $0 [-h|--help]
 
 -h|--help: this help message
 
-Note: This is a work in progress. Please tweet me if you have updates you would like us 
+# Note: This is a work in progress. Please tweet me if you have updates you would like us 
 # to include
 EOF
 exit 1
