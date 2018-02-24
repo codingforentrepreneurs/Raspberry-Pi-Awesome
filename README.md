@@ -1,5 +1,8 @@
 # Raspberry Pi Awesome
 (In Progress) 
+![Pi Awesome Logo](https://cfe2-static.s3-us-west-2.amazonaws.com/media/cfe-blog/raspberry-pi-awesome/Pi-Awesome.jpg)
+
+## Most update to date guide is [here](https://www.codingforentrepreneurs.com/blog/raspberry-pi-awesome/)
 
 The goal of this repo is to have simple, easy-to-use scripts to get a Raspberry Pi ready for all kinds of awesome like:
 - Face Recognition, 
@@ -22,7 +25,7 @@ These scripts may work with other versions of Linux (specifically Debian) but we
 **Time**: Up to 3 hours.
 ```
 $ cd ~/
-$ wget https://github.com/codingforentrepreneurs/Raspberry-Pi-Awesome/blob/master/scripts/setup-opencv.sh  && chmod +x setup-opencv.sh && sudo ./setup-opencv.sh
+$ wget https://raw.githubusercontent.com/codingforentrepreneurs/Raspberry-Pi-Awesome/master/scripts/setup-opencv.sh  && chmod +x setup-opencv.sh && sudo ./setup-opencv.sh
 ```
 
 
@@ -33,5 +36,5 @@ $ wget https://github.com/codingforentrepreneurs/Raspberry-Pi-Awesome/blob/maste
 
 ```
 $ cd ~/
-$ wget https://github.com/codingforentrepreneurs/Raspberry-Pi-Awesome/blob/master/scripts/setup-face-recognition.sh  && chmod +x setup-face-recognition.sh && sudo ./setup-face-recognition.sh
+$ wget https://raw.githubusercontent.com/codingforentrepreneurs/Raspberry-Pi-Awesome/master/scripts/setup-face-recognition.sh  && chmod +x setup-face-recognition.sh && sudo ./setup-face-recognition.sh
 ```
