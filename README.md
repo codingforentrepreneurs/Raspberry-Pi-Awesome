@@ -1,5 +1,6 @@
-# Raspberry Pi Awesome
-(In Progress) 
+# Updated repo is [here](https://github.com/codingforentrepreneurs/Pi-Awesome)
+
+## Raspberry Pi Awesome
 ![Pi Awesome Logo](https://cfe2-static.s3-us-west-2.amazonaws.com/media/cfe-blog/raspberry-pi-awesome/Pi-Awesome.jpg)
 
 ## Most update to date guide is [here](https://www.codingforentrepreneurs.com/blog/raspberry-pi-awesome/)
